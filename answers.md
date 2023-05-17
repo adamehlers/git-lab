@@ -11,19 +11,19 @@ credential.helper=cache
 
 **Answer 3**
 
->GIT-ADD(1)                                   Git Manual                                  GIT-ADD(1)
+GIT-ADD(1)                                   Git Manual                                  GIT-ADD(1)
 
->NAME
->       git-add - Add file contents to the index
+NAME
+       git-add - Add file contents to the index
 
->SYNOPSIS
+SYNOPSIS
        git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
                  [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]] [--sparse]
                  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
                  [--chmod=(+|-)x] [--pathspec-from-file=<file> [--pathspec-file-nul]]
                  [--] [<pathspec>...]
 
->DESCRIPTION
+DESCRIPTION
        This command updates the index using the current content found in the working tree, to
        prepare the content staged for the next commit. It typically adds the current content of
        existing paths as a whole, but with some options it can also be used to add content with
@@ -51,7 +51,7 @@ credential.helper=cache
 
        Please see git-commit(1) for alternative ways to add content to a commit.
 
->OPTIONS
+OPTIONS
        <pathspec>...
            Files to add content from. Fileglobs (e.g.  *.c) can be given to add all matching files.
            Also a leading directory name (e.g.  dir to add dir/file1 and dir/file2) can be given to
@@ -62,45 +62,45 @@ credential.helper=cache
            want to add modified or new files but ignore removed ones.
 
            For more details about the <pathspec> syntax, see the pathspec entry in gitglossary(7).
->Manual page git-add(1) line 1 (press h for help or q to quit)
+Manual page git-add(1) line 1 (press h for help or q to quit)
 
 
 **Answer 4**
->On branch master
->
->No commits yet
+On branch master
 
->Untracked files:
->  (use "git add <file>..." to include in what will be committed)
->        README.md
->        answers.md
->
->nothing added to commit but untracked files present (use "git add" to track)
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+        answers.md
+
+nothing added to commit but untracked files present (use "git add" to track)
 
 
 **Answer 5**
->On branch master
+On branch master
 
->No commits yet
+No commits yet
 
->Changes to be committed:
->  (use "git rm --cached <file>..." to unstage)
->        new file:   README.md
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
 
->Untracked files:
->  (use "git add <file>..." to include in what will be committed)
->        answers.md
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        answers.md
 
 
 **Answer 6**
->On branch master
->
->No commits yet
->
->Changes to be committed:
->  (use "git rm --cached <file>..." to unstage)
->        new file:   README.md
->        new file:   answers.md
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   answers.md
 
 
 **Answer 7**
@@ -154,6 +154,3 @@ My online changes now match my local copy
 
 **Answer 13**
 .  ..  .git  .gitignore  README.md
-
-
-**Answer 14**
