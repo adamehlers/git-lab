@@ -10,7 +10,7 @@ user.email=adamehlers15@gmail.com
 credential.helper=cache
 
 **Answer 3**
-
+```
 GIT-ADD(1)                                   Git Manual                                  GIT-ADD(1)
 
 NAME
@@ -63,6 +63,7 @@ OPTIONS
 
            For more details about the <pathspec> syntax, see the pathspec entry in gitglossary(7).
 Manual page git-add(1) line 1 (press h for help or q to quit)
+```
 
 
 **Answer 4**
