@@ -1,13 +1,17 @@
 # Adam Ehlers Answers for Lab 1
 
 **Answer 1**
+```
 git version 2.34.1
+```
 
 
 **Answer 2**
+```
 user.name=adamehlers
 user.email=adamehlers15@gmail.com
 credential.helper=cache
+```
 
 **Answer 3**
 ```
@@ -67,6 +71,7 @@ Manual page git-add(1) line 1 (press h for help or q to quit)
 
 
 **Answer 4**
+```
 On branch master
 
 No commits yet
@@ -77,9 +82,11 @@ Untracked files:
         answers.md
 
 nothing added to commit but untracked files present (use "git add" to track)
+```
 
 
 **Answer 5**
+```
 On branch master
 
 No commits yet
@@ -91,9 +98,11 @@ Changes to be committed:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         answers.md
+```
 
 
 **Answer 6**
+```
 On branch master
 
 No commits yet
@@ -102,9 +111,11 @@ Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   README.md
         new file:   answers.md
+```
 
 
 **Answer 7**
+```
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -112,17 +123,21 @@ Changes not staged for commit:
         modified:   answers.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
+```
 
 
 **Answer 8**
+```
 commit e043a4afa25634d8951227122da59c17e7182ce4 (HEAD -> master)
 Author: adamehlers <adamehlers15@gmail.com>
 Date:   Wed May 17 16:43:50 2023 -0400
 
     Initial commit
+```
 
 
 **Answer 9**
+```
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -132,13 +147,14 @@ Changes not staged for commit:
         modified:   answers.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
+```
 
 
 **Answer 10**
 My online changes did not match my local copy
 
-
 **Answer 11**
+```
 To https://github.com/adamehlers/git-lab.git
  ! [rejected]        main -> main (fetch first)
 error: failed to push some refs to 'https://github.com/adamehlers/git-lab.git'
@@ -147,6 +163,7 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
 
 
 **Answer 12**
@@ -154,4 +171,6 @@ My online changes now match my local copy
 
 
 **Answer 13**
+```
 .  ..  .git  .gitignore  README.md
+```
